@@ -280,7 +280,7 @@ export default function Home() {
         <section className="hero-section" aria-labelledby="hero-title">
           <div className="hero-copy">
             <div className="eyebrow"><span /> Sabores disponíveis <span /></div>
-            <img className="brand-logo" src="/assets/vitta-logo-restored.png" alt="VITTA Pizzaria Napolitana" decoding="async" fetchPriority="high" />
+            <img className="brand-logo" src="/assets/vitta-logo-transparent.png" alt="VITTA Pizzaria Napolitana" decoding="async" fetchPriority="high" />
             <h1 id="hero-title">O sabor que<br /><em>acolhe.</em></h1>
             <p className="hero-description">Pizza napolitana artesanal, fermentação natural e ingredientes escolhidos para uma experiência feita com calma.</p>
             <a className="hero-cta" href="#menu-content" onClick={() => setActiveSection("pizzas")}>
